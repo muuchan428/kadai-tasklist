@@ -54,7 +54,7 @@ public class IndexServlet extends HttpServlet {
         em.close();
 
         request.setAttribute("task", tasks);
-        request.setAttribute("Tasks_count",tasks_count);
+        request.setAttribute("tasks_count",tasks_count);
         request.setAttribute("page", page);
 
         // フラッシュメッセージがセッションスコープにセットされていたら
